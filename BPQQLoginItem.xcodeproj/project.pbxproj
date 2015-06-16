@@ -14,6 +14,16 @@
 		F697F88F1B2FC82200EDFEA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F697F88E1B2FC82200EDFEA7 /* Images.xcassets */; };
 		F697F8921B2FC82200EDFEA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F697F8901B2FC82200EDFEA7 /* LaunchScreen.xib */; };
 		F697F89E1B2FC82200EDFEA7 /* BPQQLoginItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F697F89D1B2FC82200EDFEA7 /* BPQQLoginItemTests.m */; };
+		F697F8A91B2FC95500EDFEA7 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8A81B2FC95500EDFEA7 /* TencentOpenAPI.framework */; };
+		F697F8AD1B2FCF9200EDFEA7 /* TencentApiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F697F8AC1B2FCF9200EDFEA7 /* TencentApiHandler.m */; };
+		F697F8AF1B2FD6CA00EDFEA7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8AE1B2FD6CA00EDFEA7 /* Security.framework */; };
+		F697F8B11B2FD6D100EDFEA7 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8B01B2FD6D100EDFEA7 /* libiconv.dylib */; };
+		F697F8B31B2FD6D600EDFEA7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8B21B2FD6D600EDFEA7 /* SystemConfiguration.framework */; };
+		F697F8B51B2FD6DB00EDFEA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8B41B2FD6DB00EDFEA7 /* CoreGraphics.framework */; };
+		F697F8B71B2FD6E200EDFEA7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8B61B2FD6E200EDFEA7 /* libsqlite3.dylib */; };
+		F697F8B91B2FD6E700EDFEA7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8B81B2FD6E700EDFEA7 /* CoreTelephony.framework */; };
+		F697F8BB1B2FD6EE00EDFEA7 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8BA1B2FD6EE00EDFEA7 /* libstdc++.dylib */; };
+		F697F8BD1B2FD6F400EDFEA7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F697F8BC1B2FD6F400EDFEA7 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,18 @@
 		F697F8971B2FC82200EDFEA7 /* BPQQLoginItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPQQLoginItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F697F89C1B2FC82200EDFEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F697F89D1B2FC82200EDFEA7 /* BPQQLoginItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPQQLoginItemTests.m; sourceTree = "<group>"; };
+		F697F8A81B2FC95500EDFEA7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		F697F8AA1B2FCF2600EDFEA7 /* TencentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TencentConfig.h; sourceTree = "<group>"; };
+		F697F8AB1B2FCF9200EDFEA7 /* TencentApiHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentApiHandler.h; sourceTree = "<group>"; };
+		F697F8AC1B2FCF9200EDFEA7 /* TencentApiHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentApiHandler.m; sourceTree = "<group>"; };
+		F697F8AE1B2FD6CA00EDFEA7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F697F8B01B2FD6D100EDFEA7 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F697F8B21B2FD6D600EDFEA7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F697F8B41B2FD6DB00EDFEA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F697F8B61B2FD6E200EDFEA7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F697F8B81B2FD6E700EDFEA7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F697F8BA1B2FD6EE00EDFEA7 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F697F8BC1B2FD6F400EDFEA7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F697F8BD1B2FD6F400EDFEA7 /* libz.dylib in Frameworks */,
+				F697F8BB1B2FD6EE00EDFEA7 /* libstdc++.dylib in Frameworks */,
+				F697F8B91B2FD6E700EDFEA7 /* CoreTelephony.framework in Frameworks */,
+				F697F8B71B2FD6E200EDFEA7 /* libsqlite3.dylib in Frameworks */,
+				F697F8B51B2FD6DB00EDFEA7 /* CoreGraphics.framework in Frameworks */,
+				F697F8B31B2FD6D600EDFEA7 /* SystemConfiguration.framework in Frameworks */,
+				F697F8B11B2FD6D100EDFEA7 /* libiconv.dylib in Frameworks */,
+				F697F8AF1B2FD6CA00EDFEA7 /* Security.framework in Frameworks */,
+				F697F8A91B2FC95500EDFEA7 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,15 @@
 		F697F8751B2FC82200EDFEA7 = {
 			isa = PBXGroup;
 			children = (
+				F697F8BC1B2FD6F400EDFEA7 /* libz.dylib */,
+				F697F8BA1B2FD6EE00EDFEA7 /* libstdc++.dylib */,
+				F697F8B81B2FD6E700EDFEA7 /* CoreTelephony.framework */,
+				F697F8B61B2FD6E200EDFEA7 /* libsqlite3.dylib */,
+				F697F8B41B2FD6DB00EDFEA7 /* CoreGraphics.framework */,
+				F697F8B21B2FD6D600EDFEA7 /* SystemConfiguration.framework */,
+				F697F8B01B2FD6D100EDFEA7 /* libiconv.dylib */,
+				F697F8AE1B2FD6CA00EDFEA7 /* Security.framework */,
+				F697F8A71B2FC94C00EDFEA7 /* Classes */,
 				F697F8801B2FC82200EDFEA7 /* BPQQLoginItem */,
 				F697F89A1B2FC82200EDFEA7 /* BPQQLoginItemTests */,
 				F697F87F1B2FC82200EDFEA7 /* Products */,
@@ -117,6 +157,17 @@
 				F697F89C1B2FC82200EDFEA7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F697F8A71B2FC94C00EDFEA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F697F8A81B2FC95500EDFEA7 /* TencentOpenAPI.framework */,
+				F697F8AA1B2FCF2600EDFEA7 /* TencentConfig.h */,
+				F697F8AB1B2FCF9200EDFEA7 /* TencentApiHandler.h */,
+				F697F8AC1B2FCF9200EDFEA7 /* TencentApiHandler.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +273,7 @@
 				F697F88A1B2FC82200EDFEA7 /* ViewController.m in Sources */,
 				F697F8871B2FC82200EDFEA7 /* AppDelegate.m in Sources */,
 				F697F8841B2FC82200EDFEA7 /* main.m in Sources */,
+				F697F8AD1B2FCF9200EDFEA7 /* TencentApiHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +399,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes",
+				);
 				INFOPLIST_FILE = BPQQLoginItem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes",
+				);
 				INFOPLIST_FILE = BPQQLoginItem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

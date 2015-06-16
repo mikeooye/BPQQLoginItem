@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TencentApiHandler.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)qqLogin:(id)sender {
+    
+    [[TencentApiHandler defaultHandler] authorize];
+}
 @end
